@@ -266,7 +266,7 @@ def mainActivity():
         global line
         line = "-" * 70
         global abspath 
-        abspath = gd.path.join ("C://", "virtualenvironment", "TeLon", "Scripts")
+        abspath = gd.path.join ("C://", "virtualenvironment", "TeLon")
         gd.system("cd " + abspath)
         #disC = sp.check_output("zaglarh disconnect")
         indiv.clr()
